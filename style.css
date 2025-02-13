@@ -1,0 +1,59 @@
+.container {
+    width: 400px;
+    height: 200px;
+    display:flex;
+
+}
+
+/* die linke Seite habe ich nicht mit flex bearbeitet*/
+
+.links {
+    background-image: url(https://s3-alpha-sig.figma.com/img/b0ba/c2df/c523ad081176ec591dda8634f7572dbe?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=S7D-SFFO2BJVztN2Q6aX13OYJCUd-7Hpx16AvlHJnZuw4HN98k6Lc6gouay92~PdkvrQEqRdXSVZ~-VSU4ukXCvB3rLnVg15cj5mk33IxMetNvLbCjblyF8yudb3trSFBntt1W4eS2aJD8ykoNe7Ot489EdjqVjHelLu73vYzxLmUNM78FSxEbOz5yXqB~z-BT7-nom9QAPee8JusRToCoEQs0RkM8D6k2btYVTNtzmvYxvDJ5NhlAuZe6eSDUA6QXQI7wyx0uLFzbh1LlFa0u-YQmtU5n6X5hZXauPrLEQwF4DtrVCbg1oHiOCQKabVxUQ1rrAoS-Uf9YuLDRrPrQ__);
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:5%;
+}
+
+
+.Itśbetter {
+   width: 6em;
+   height: 2em;
+   font-size: 0.5em;
+   
+}
+.peins {
+    color: white;
+}
+
+/* die rechte Seite habe ich nicht mit flex, sondern mit position:absolut bearbeitet*/
+.rechts {
+    background-image: url(https://s3-alpha-sig.figma.com/img/136a/5cb7/78037131b06f38d44cb7f24b878c7ae1?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GPGO37INPFm-aIx0KBcOyYKWdpofBzvU6YQtQb--vQulSm1SaeiDlLR7lY1yyR-bZVY03ExpbYLYGZaLK96-Hdpk~y8S~EMC8f5O-SXzXFQdZzPnASJp3hD7pqyJcSn06M3cFv6IVrGozs6~Pn6dAWswjzKMs9xMYcnJsQ5-olmZd--DWUFQmqzT9eVBS4TONJIuqAWH8wpFUr2p-uJWTYE1NZpeTU-URAW-8GsCZE-i~dutldjXzfM-MLkU6zuYuiDx9YVMrNF-IqTg6-~00ofyMWgbRcr9gU0hvnXBPvIRP4P8RA2fpPCuvU1QTTvFdtp~7KVc8-~PmspB5Xh4zQ__);
+    background-size: cover;
+    width: 50%;
+}
+
+img {
+    position: absolute;
+    top: 15%;
+    left: 40%
+}
+.academy {
+    width: 6em;
+    height: 2em;
+    font-size: 0.5em;
+    opacity: 0.5;
+    position:absolute;
+    top: 35%;
+    right:35%;
+}
+
+.pzwei {
+    color: white;
+    font-size: 0.6em;
+    position: absolute;
+    top: 17%;
+    left: 40%
+}
