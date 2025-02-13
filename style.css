@@ -5,7 +5,7 @@
 
 }
 
-/* die linke Seite habe ich  mit flex bearbeitet*/
+/* die linke Seite habe ich nicht mit flex bearbeitet*/
 
 .links {
     background-image: url(https://s3-alpha-sig.figma.com/img/b0ba/c2df/c523ad081176ec591dda8634f7572dbe?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=S7D-SFFO2BJVztN2Q6aX13OYJCUd-7Hpx16AvlHJnZuw4HN98k6Lc6gouay92~PdkvrQEqRdXSVZ~-VSU4ukXCvB3rLnVg15cj5mk33IxMetNvLbCjblyF8yudb3trSFBntt1W4eS2aJD8ykoNe7Ot489EdjqVjHelLu73vYzxLmUNM78FSxEbOz5yXqB~z-BT7-nom9QAPee8JusRToCoEQs0RkM8D6k2btYVTNtzmvYxvDJ5NhlAuZe6eSDUA6QXQI7wyx0uLFzbh1LlFa0u-YQmtU5n6X5hZXauPrLEQwF4DtrVCbg1oHiOCQKabVxUQ1rrAoS-Uf9YuLDRrPrQ__);
@@ -36,24 +36,24 @@
 }
 
 img {
-    position: absolute;
+    position: relative;
     top: 15%;
-    left: 40%
+    left: 20%
 }
 .academy {
     width: 6em;
     height: 2em;
     font-size: 0.5em;
     opacity: 0.5;
-    position:absolute;
-    top: 35%;
-    right:35%;
+    position:relative;
+    top: 25%;
+    left:55%;
 }
 
 .pzwei {
     color: white;
     font-size: 0.6em;
-    position: absolute;
-    top: 17%;
-    left: 40%
+    position: relative;
+    top: 15%;
+    left: 20%
 }
